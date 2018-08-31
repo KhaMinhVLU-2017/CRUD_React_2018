@@ -1,0 +1,25 @@
+.first_img{
+  background-image: url('./images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 350px;
+  text-align: center;
+}
+.first_logo {
+  height: 216px;
+  width: 384px;
+  animation: meoLogo infinite 15s linear;
+}
+@keyframes meoLogo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.last_foot{
+  background-image: url('./images/ft.jpg');
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+}
